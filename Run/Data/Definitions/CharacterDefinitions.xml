@@ -1,0 +1,122 @@
+<Definitions>
+	<!-- NPC1 -->
+	<CharacterDefinition name="DayPerson" id="0001" visible="true">
+  		<Collision physicsRadius="1.25f" physicsHeight="6.0f" collidesWithWorld="true" collidesWithCharacters="true" grounded="true"/>
+  		<Physics simulated="true" walkSpeed="3.0f" runSpeed="8.0f"/>
+  		<Camera eyeHeight="5.9f" cameraFOV="60.0f"/>
+		<Schedule>
+			<Task type="Sleep" start="22.0f" end="6.0f"/>
+			<Task type="Eat" start="6.0f" end="8.0"/>
+			<Task type="Work" start="8.0f" end="17.0f"/>
+			<Task type="Going_To" start="17.0f" end="22.0f"/>
+		</Schedule>
+	</CharacterDefinition>
+	<!-- NPC2 -->
+	<CharacterDefinition name="NightPerson" id="0002" visible="true">
+		<Collision physicsRadius="1.25f" physicsHeight="6.0f" collidesWithWorld="true" collidesWithCharacters="true" grounded="true"/>
+		<Physics simulated="true" walkSpeed="3.0f" runSpeed="8.0f"/>
+		<Camera eyeHeight="5.9f" cameraFOV="60.0f"/>
+		<Schedule>
+			<Task type="Sleep" start="9.0f" end="17.0f"/>
+			<Task type="Eat" start="7.0f" end="9.0"/>
+			<Task type="Work" start="22.0f" end="7.0f"/>
+			<Task type="Going_To" start="17.0f" end="22.0f"/>
+		</Schedule>
+	</CharacterDefinition>
+	<!-- NPC3 -->
+	<CharacterDefinition name="DayPerson2" id="0003" visible="true">
+		<Collision physicsRadius="1.25f" physicsHeight="6.0f" collidesWithWorld="true" collidesWithCharacters="true" grounded="true"/>
+		<Physics simulated="true" walkSpeed="3.0f" runSpeed="8.0f"/>
+		<Camera eyeHeight="5.9f" cameraFOV="60.0f"/>
+		<Schedule>
+			<Task type="Sleep" start="22.0f" end="6.0f"/>
+			<Task type="Eat" start="6.0f" end="8.0"/>
+			<Task type="Work" start="8.0f" end="17.0f"/>
+			<Task type="Going_To" start="17.0f" end="22.0f"/>
+		</Schedule>
+	</CharacterDefinition>
+	<!-- NPC4 -->
+	<CharacterDefinition name="NightPerson2" id="0004" visible="true">
+		<Collision physicsRadius="1.25f" physicsHeight="6.0f" collidesWithWorld="true" collidesWithCharacters="true" grounded="true"/>
+		<Physics simulated="true" walkSpeed="3.0f" runSpeed="8.0f"/>
+		<Camera eyeHeight="5.9f" cameraFOV="60.0f"/>
+		<Schedule>
+			<Task type="Sleep" start="9.0f" end="17.0f"/>
+			<Task type="Eat" start="7.0f" end="9.0"/>
+			<Task type="Work" start="22.0f" end="7.0f"/>
+			<Task type="Going_To" start="17.0f" end="22.0f"/>
+		</Schedule>
+	</CharacterDefinition>
+	<!-- NPC5 -->
+	<CharacterDefinition name="NightPerson3" id="0005" visible="true">
+		<Collision physicsRadius="1.25f" physicsHeight="6.0f" collidesWithWorld="true" collidesWithCharacters="true" grounded="true"/>
+		<Physics simulated="true" walkSpeed="3.0f" runSpeed="8.0f"/>
+		<Camera eyeHeight="5.9f" cameraFOV="60.0f"/>
+		<Schedule>
+			<Task type="Sleep" start="9.0f" end="17.0f"/>
+			<Task type="Eat" start="7.0f" end="9.0"/>
+			<Task type="Work" start="22.0f" end="7.0f"/>
+			<Task type="Going_To" start="17.0f" end="22.0f"/>
+		</Schedule>
+	</CharacterDefinition>
+	<!-- NPC6 -->
+	<CharacterDefinition name="DayPerson4" id="0006" visible="true">
+		<Collision physicsRadius="1.25f" physicsHeight="6.0f" collidesWithWorld="true" collidesWithCharacters="true" grounded="true"/>
+		<Physics simulated="true" walkSpeed="3.0f" runSpeed="8.0f"/>
+		<Camera eyeHeight="5.9f" cameraFOV="60.0f"/>
+		<Schedule>
+			<Task type="Sleep" start="22.0f" end="6.0f"/>
+			<Task type="Eat" start="6.0f" end="8.0"/>
+			<Task type="Work" start="8.0f" end="17.0f"/>
+			<Task type="Going_To" start="17.0f" end="22.0f"/>
+		</Schedule>
+	</CharacterDefinition>
+	<!-- NPC7 -->
+	<CharacterDefinition name="DayPerson5" id="0007" visible="true">
+		<Collision physicsRadius="1.25f" physicsHeight="6.0f" collidesWithWorld="true" collidesWithCharacters="true" grounded="true"/>
+		<Physics simulated="true" walkSpeed="3.0f" runSpeed="8.0f"/>
+		<Camera eyeHeight="5.9f" cameraFOV="60.0f"/>
+		<Schedule>
+			<Task type="Sleep" start="22.0f" end="6.0f"/>
+			<Task type="Eat" start="6.0f" end="8.0"/>
+			<Task type="Work" start="8.0f" end="17.0f"/>
+			<Task type="Going_To" start="17.0f" end="22.0f"/>
+		</Schedule>
+	</CharacterDefinition>
+	<!-- NPC8 -->
+	<CharacterDefinition name="DayPerson6" id="0008" visible="true">
+		<Collision physicsRadius="1.25f" physicsHeight="6.0f" collidesWithWorld="true" collidesWithCharacters="true" grounded="true"/>
+		<Physics simulated="true" walkSpeed="3.0f" runSpeed="8.0f"/>
+		<Camera eyeHeight="5.9f" cameraFOV="60.0f"/>
+		<Schedule>
+			<Task type="Sleep" start="22.0f" end="6.0f"/>
+			<Task type="Eat" start="6.0f" end="8.0"/>
+			<Task type="Work" start="8.0f" end="17.0f"/>
+			<Task type="Going_To" start="17.0f" end="22.0f"/>
+		</Schedule>
+	</CharacterDefinition>
+	<!-- NPC9 -->
+	<CharacterDefinition name="NightPerson4" id="0009" visible="true">
+		<Collision physicsRadius="1.25f" physicsHeight="6.0f" collidesWithWorld="true" collidesWithCharacters="true" grounded="true"/>
+		<Physics simulated="true" walkSpeed="3.0f" runSpeed="8.0f"/>
+		<Camera eyeHeight="5.9f" cameraFOV="60.0f"/>
+		<Schedule>
+			<Task type="Sleep" start="9.0f" end="17.0f"/>
+			<Task type="Eat" start="7.0f" end="9.0"/>
+			<Task type="Work" start="22.0f" end="7.0f"/>
+			<Task type="Going_To" start="17.0f" end="22.0f"/>
+		</Schedule>
+	</CharacterDefinition>
+	<!-- NPC10 -->
+	<CharacterDefinition name="NightPerson5" id="0010" visible="true">
+		<Collision physicsRadius="1.25f" physicsHeight="6.0f" collidesWithWorld="true" collidesWithCharacters="true" grounded="true"/>
+		<Physics simulated="true" walkSpeed="3.0f" runSpeed="8.0f"/>
+		<Camera eyeHeight="5.9f" cameraFOV="60.0f"/>
+		<Schedule>
+			<Task type="Sleep" start="9.0f" end="17.0f"/>
+			<Task type="Eat" start="7.0f" end="9.0"/>
+			<Task type="Work" start="22.0f" end="7.0f"/>
+			<Task type="Going_To" start="17.0f" end="22.0f"/>
+		</Schedule>
+	</CharacterDefinition>
+</Definitions>
